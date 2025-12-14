@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Button */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background: hotpink;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 15px hotpink;
+  animation: pulse 1.5s infinite;
+}
+
+/* Heart container */
+.heart {
+  width: 350px;
+  height: 300px;
+  margin-top: 20px;
+  clip-path: polygon(
+    50% 15%,
+    61% 5%,
+    75% 5%,
+    88% 18%,
+    88% 35%,
+    50% 85%,
+    12% 35%,
+    12% 18%,
+    25% 5%,
+    39% 5%
+  );
+  animation: pop 0.8s ease-out;
+}
+
+/* Text */
+.heart  {
+  color: pink;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 0 0 10px pink;
+}
+
